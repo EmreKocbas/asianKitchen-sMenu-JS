@@ -1,0 +1,59 @@
+
+/* Apply box-sizing border-box to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Style for the container of buttons */
+.btn-container {
+    display: flex;
+    justify-content: center; /* Center align the buttons */
+}
+
+/* Body styles */
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f1f5f8; /* Set background color */
+    font-family: "Zilla Slab", serif; /* Set font family */
+}
+
+/* Heading styles */
+h1 {
+    font-family: "Great Vibes", cursive; /* Set font family */
+}
+
+/* Title heading styles */
+.title h1 {
+    font-size: 3rem; /* Set font size */
+    color: #ff6a23; /* Set text color */
+    font-weight: bold; /* Set font weight */
+}
+
+/* Image styles within items */
+.item img {
+    width: 300px; /* Set width */
+    object-fit: cover; /* Scale the image while maintaining aspect ratio */
+    border: 3px solid; /* Set border */
+    border-radius: 10px; /* Set border radius */
+    box-shadow: 0 0 8px #ff6a23; /* Apply box shadow */
+}
+
+/* Item container styles */
+.item {
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center align items */
+}
+
+/* Heading styles within items */
+.item h5 {
+    color: #ff6a23; /* Set text color */
+}
+
+/* Grid layout styles for items */
+.items {
+    display: grid; /* Use grid layout */
+    grid-template-rows: 1fr; /* Set row template */
+    grid-template-columns: 1fr 1fr; /* Set column template */
+    gap: 40px; /* Set gap between grid items */
+}
